@@ -1,6 +1,4 @@
-# weather
-
-This template should help get you started developing with Vue 3 in Vite.
+A frontend service for chatbot to get the weather by conversitional way.
 
 ## Recommended IDE Setup
 
