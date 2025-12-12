@@ -1,5 +1,5 @@
 <script setup>
-import { useChat } from '@/composables/useChat.js'
+import { useChat } from '@/composables/UseChat.js'
 import { NInput, NButton, NScrollbar, NConfigProvider, darkTheme } from 'naive-ui'
 import { SendHorizonal, Bot, User } from 'lucide-vue-next'
 import { computed } from 'vue'
