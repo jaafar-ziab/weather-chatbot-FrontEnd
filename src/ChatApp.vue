@@ -2,7 +2,7 @@
 import { ref, onMounted, watch } from 'vue';
 import { NScrollbar, NConfigProvider, darkTheme, NButton } from 'naive-ui';
 import { LogOut } from 'lucide-vue-next';
-import { useChat } from './composables/useChat.js';
+import { useChat } from './composables/UseChat.js';
 import { authService } from './services/authService.js';
 import ChatMessage from './components/ChatMessage.vue';
 import ChatInput from './components/ChatInput.vue';
