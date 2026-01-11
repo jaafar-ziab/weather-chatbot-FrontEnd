@@ -1,6 +1,7 @@
 <script setup>
 import { Bot, User } from 'lucide-vue-next';
 
+// Props
 defineProps({
   message: {
     type: Object,
@@ -53,10 +54,11 @@ defineProps({
         backgroundColor: message.sender === 'user' ? '#2563eb' : '#374151',
         color: 'white',
         border: message.sender === 'user' ? 'none' : '1px solid #4b5563',
+        whiteSpace: 'pre-wrap',
         wordWrap: 'break-word'
-        whiteSpace: 'pre-wrap', // ✅ PRESERVE newlines and spacing
       }"
     >
       {{ message.text }}
     </div>
+  </div>
 </template>
